@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Style */
+.nav-link {
+  color: #ffffff;
+}
+.navigation {
+  display: flex;
+  background-color: #061413;
+}
+.logo {
+  width: 120px;
+  height: 50px;
+  margin: 0 10%;
+}
+.btn {
+  margin-top: 5%;
+  width: 115px;
+  border-radius: 50px;
+  background-image: linear-gradient(140deg, #fa7236, #ff0566);
+  color: #ffffff;
+}
