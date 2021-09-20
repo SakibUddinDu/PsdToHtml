@@ -3,24 +3,443 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 65%;
+}
+li {
+  list-style: none;
+}
 
-/* Navbar Style */
+body {
+  font-family: "Heebo", sans-serif;
+}
+.menu {
+  margin-left: 20%;
+}
 .nav-link {
   color: #ffffff;
 }
+.nav li {
+  margin: 1.7rem;
+}
 .navigation {
   display: flex;
-  background-color: #061413;
 }
 .logo {
-  width: 120px;
-  height: 50px;
-  margin: 0 10%;
+  width: 100px;
+  height: 40px;
 }
 .btn {
-  margin-top: 5%;
-  width: 115px;
+  width: 100px;
+  font-size: 12px;
+  height: 30px;
   border-radius: 50px;
   background-image: linear-gradient(140deg, #fa7236, #ff0566);
   color: #ffffff;
 }
+
+/* ========Banner Section====== */
+.header {
+  background-color: #061413;
+}
+.header__text1 {
+  font-weight: 100;
+  font-size: 44px;
+  color: #fd3931;
+  margin-top: 10%;
+  line-height: 65px;
+}
+.header__text2 {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 200;
+  padding-top: 1%;
+  margin-bottom: 20%;
+}
+.content__domain__price span {
+  font-size: 12px;
+  font-weight: 300;
+  color: #fffefe;
+  display: inline-block;
+  margin: 20px 20px 0 0;
+}
+.content__domain__price span a {
+  font-size: 12px;
+  font-weight: 300;
+  color: #fc3d4d;
+  text-decoration: none;
+  border-bottom: 1px dotted #fc3d4d;
+}
+/* header form */
+.search__form {
+  position: relative;
+}
+.search__form input {
+  width: 100%;
+  border: 0;
+  padding: 4% 20% 4% 8%;
+  border-radius: 50px;
+  color: #999999;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: white;
+}
+.search__form button {
+  position: absolute;
+  right: 0.9%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  padding: 3% 6%;
+  background-color: #fc3d4d;
+  border-radius: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.search__form button:hover {
+  background-color: #fa7236;
+}
+.header__img {
+  width: 120%;
+  height: 120%;
+  padding-top: 10%;
+}
+
+/* <==========Card Section Start===========> */
+.card-section {
+  background-image: linear-gradient(140deg, #09121b, #0b111f);
+}
+.card1 {
+  background-image: linear-gradient(to right bottom, #049ec0, #04d6d6);
+  border-radius: 5px 0 0 5px;
+}
+.card2 {
+  background-image: linear-gradient(to right bottom, #fa7236, #ff0864);
+  border-radius: 0;
+}
+.card3 {
+  background-image: linear-gradient(to right bottom, #be63d9, #5c27fe);
+  border-radius: 0;
+  /* z-index: 0; */
+}
+.card4 {
+  background-image: linear-gradient(to right bottom, #ffcb52, #ff7b02);
+  border-radius: 0 5px 5px 0;
+  z-index: 0;
+}
+.card img {
+  width: 200px;
+  margin: 0 0 0 -80px;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+.card__btn {
+  background: none;
+  border: 1.2px solid #fff;
+  text-transform: uppercase;
+  margin-top: 5%;
+}
+.card-body {
+  text-align: center;
+  list-style: none;
+}
+.card-body ul {
+  list-style: none;
+  color: #fff;
+  font-size: 14px;
+}
+.card-header {
+  margin-top: 30px;
+  color: #fff;
+}
+.card-header h2 {
+  font-size: 40px;
+  font-weight: 100px;
+}
+.cards__bottom__description {
+  text-align: center;
+  color: #4f596d;
+  line-height: 8px;
+  padding-top: 3%;
+}
+.cards__bottom__description p {
+  font-size: 12px;
+}
+.cards__bottom__description h4 span {
+  color: #fc3d4d;
+}
+.bx-right-arrow-circle {
+  color: #fc3d4d;
+}
+
+/* =========plan section============ */
+.plan__section {
+  background-image: linear-gradient(60deg, #0e0f26, #0f0f27);
+  /* background-color: #0c1022; */
+}
+.plans__group {
+  margin-top: 2%;
+}
+.plan__heading {
+  text-align: center;
+  color: #fff;
+  padding-top: 6%;
+}
+.plan__item {
+  background-color: #262839;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+.plan__item__icon {
+  flex-basis: 20%;
+}
+.plan__item__icon img {
+  padding: 5px;
+}
+.plan__item--text {
+  flex-basis: 80%;
+}
+.plan__item--text p {
+  font-size: 15px;
+  color: #8998af;
+  font-weight: 400;
+  line-height: 24px;
+}
+.plan__item__check {
+  flex-basis: 10%;
+}
+.plan__item__check span i {
+  font-size: 18px;
+  color: #34b358;
+}
+
+/* <==========common1(Feature, Main Product, Business)===========>  */
+.common1__section {
+  background-image: linear-gradient(60deg, #0e0f26, #120d2d);
+  padding-top: 7%;
+}
+.common1__heading {
+  color: #ceced3;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.common1__heading h2 {
+  font-weight: 300;
+}
+.common1__heading h4 {
+  color: #fc3d4d;
+  font-weight: 200;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.common1__heading p {
+  font-size: 12px;
+  font-weight: 200;
+}
+.common1__item {
+  background-color: #262839;
+  border-radius: 3px;
+  align-items: center;
+  color: #ceced3;
+  padding: 10px;
+}
+.common1__row {
+  padding-top: 20px;
+}
+
+/* ==========Server Section============ */
+.server__section {
+  background-image: linear-gradient(60deg, #120d2d, #140b2f);
+  padding-top: 7%;
+}
+.server__heading {
+  color: #ceced3;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.server__heading h2 {
+  color: #fc3d4d;
+  font-weight: 200;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.server__heading h4 {
+  font-size: 18px;
+  font-weight: 200;
+}
+.server__map {
+  padding: 0 10% 0 10%;
+}
+
+/*==common (loving, wordpress, green server, protection, security )
+== */
+.common__section {
+  background-image: linear-gradient(to right bottom, #140b2f, #250e1b);
+  /* background-image: linear-gradient(to right bottom, #1f0c2a, #250e1b); */
+  /* background-image: linear-gradient(60deg, #190b31, #1c0b2e); */
+  padding-top: 7%;
+}
+.common__heading {
+  color: #ceced3;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.common__heading h2 {
+  font-weight: 300;
+}
+.common__heading h4 {
+  color: #fc3d4d;
+  font-weight: 200;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.common__heading p {
+  font-size: 12px;
+  font-weight: 200;
+}
+.common__text {
+  color: #ceced3;
+  font-size: 14px;
+  padding: 5px;
+  margin-top: 7%;
+}
+.common__img {
+  padding-left: 3%;
+}
+/* ==========business Section Start========= */
+.business__item:hover {
+  background-image: linear-gradient(to right bottom, #ff0566, #fa7236);
+  transition: all 0.3s;
+}
+.business__item img {
+  padding: 20px 25px;
+}
+.business__item {
+  background-image: linear-gradient(60deg, #4e4376, #2a427e);
+  text-align: center;
+  width: 20%;
+  transition: all 0.6s;
+}
+.business__item__text h4 {
+  font-size: 12px;
+}
+.business__section {
+  background-image: linear-gradient(to right bottom, #1f0c2a, #250e1b);
+}
+
+/* =========Protection with Security========= */
+.protection__section {
+  background-image: linear-gradient(to right bottom, #1f0c2a, #250e1b);
+}
+.security__button {
+  color: #ff0566;
+  border: 1px solid #ff0566;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  width: 70%;
+  height: 3.5rem;
+  padding: 8px 0;
+  font-size: 12px;
+}
+.security__button:hover {
+  background-image: linear-gradient(to right bottom, #ff0566, #fa7236);
+  color: #ceced3;
+}
+
+/* =======Other Main Products========*/
+.main__products__item img {
+  width: fit-content;
+}
+.pd__item__text {
+  text-align: center;
+}
+
+/* =======Footer section start======== */
+.footer__section {
+  background-image: linear-gradient(60deg, #120d2d, #020102);
+  color: #d1cbcd;
+  padding-top: 7%;
+}
+.services ul {
+  padding-left: 0;
+  line-height: 30px;
+}
+.services h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.social__media__link {
+  padding-top: 10%;
+}
+.social__media__link ul {
+  padding-left: 0;
+}
+.social__media__link ul li {
+  font-size: 18px;
+  padding: 2%;
+}
+.social__media__link ul li a {
+  color: #fff;
+}
+.contact__form form input[type="text"] {
+  padding: 16px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #aeaeae;
+  /* line-height: 28px; */
+  border: 0;
+  outline: 0;
+  margin-right: 5px;
+}
+.contact__form form input[type="submit"] {
+  border-radius: 5px;
+  padding: 16px 20px;
+  background-color: #44b081;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+footer {
+  background-color: #121212;
+}
+.footer__content div .copyright p {
+  font-size: 13px;
+  padding: 20px 0;
+  color: #9b9ca0;
+  font-weight: 400;
+}
+.footer__content {
+  padding: 30px 0;
+}
+.footer__menu ul li {
+  margin: 5%;
+}
+.footer__logo {
+  text-align: center;
+}
+.footer__menu ul li a {
+  color: #9b9ca0;
+  text-decoration: none;
+}
+
+/* Feature, Main Product, Business  = common1 */
+/* loving, wordpress, green server,  protection, security = common */

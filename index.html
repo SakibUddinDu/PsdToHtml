@@ -1,54 +1,1028 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  <!-- Bootstrap  CSS- -->
-     <link rel="stylesheet" href="./css/bootstrap-css/bootstrap.min.css">
+    <!-- Bootstrap  CSS- -->
+    <link rel="stylesheet" href="./css/bootstrap-css/bootstrap.min.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
-     <!-- css -->
-     <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- flaticon -->
+    <link rel="stylesheet" type="text/css" href="font/flaticon.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="main-div">
+      <section class="header">
+      <div class="container ">
+        <!-- Navbar start -->
+        <nav class="navigation p-4">
+          <div class="mt-2">
+            <img class="logo" src="./images/logo.png" alt="" />
+          </div>
+          <div class="menu">
+            <ul class="nav ml-5">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Domain</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hosting</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cloud</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Dedicated </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Email</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Security</a>
+              </li>
+              <li>
+                <span class="btn"
+                  >SIGN IN <img src="./images/sign_in_icon.png" alt=""
+                /></span>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!--  Banner Section -->
+        <div class="row mt-5 banner">
+          <div class="col-md-5 col-sm-12">
+            <h2 class="header__text1">
+              The Next Generation<br />of Web Hosting<br />Platform
+            </h2>
+            <p class="header__text2">
+              Simple, powerful and reliable cloud hosting <br />
+              With 24/7 expert support for you
+            </p>
+            <form action="" class="search__form buttonIn">
+              <input type="text" placeholder="Find your perfect domain name" />
+              <button class="btn__search-domain">
+                search domain <i class="bx bx-search"></i>
+              </button>
+            </form>
+
+            <div class="content__domain__price">
+              <span>.com $9/mo</span>
+              <span>.net $10/mo</span>
+              <span>.org $5/mo</span>
+              <span
+                ><a href="#"
+                  >See all prices <i class="bx bx-chevrons-right"></i></a
+              ></span>
+            </div>
+          </div>
+          <div class="col-md-7 col-sm-12">
+            <img
+              class="header__img img-fluid"
+              src="./images/header-bg.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- <++++++++Card Section++++++  -->
+      <section class="card-section">
+        <div class="container">
+          <div class="card-group row">
+            <div class="card card1 col-md-4 col-sm-6">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./images/hosting_icon.png" alt="..." />
+                </div>
+                <div class="col-md-6 card-header">
+                  <h3>Standard</h3>
+                  <p>Best for starter <br /> sites</p>
+                  <h2 class="mt-5">5.99</h2>
+                  <p>US$/MO</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <ul>
+                  <li>1 website</li>
+                  <li>100 GB Storage</li>
+                  <li>Un-metered bandwidth</li>
+                  <li>Full support 24/7</li>
+                  <li>Free SSL 1st year</li>
+                </ul>
+                <div class="button">
+                  <button class="btn card__btn">signup now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card card2 col-md-4 col-sm-6">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./images/hosting_icon.png" alt="..." />
+                </div>
+                <div class="col-md-6 card-header">
+                  <h3>Standard</h3>
+                  <p>Best for starter sites</p>
+                  <h2 class="mt-5">5.99</h2>
+                  <p>US$/MO</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <ul>
+                  <li>1 website</li>
+                  <li>100 GB Storage</li>
+                  <li>Unmetered bandwidth</li>
+                  <li>Full support 24/7</li>
+                  <li>Free SSL 1st year</li>
+                </ul>
+                <div class="button">
+                  <button class="btn card__btn">signup now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card card3 col-md-4 col-sm-6">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./images/hosting_icon.png" alt="..." />
+                </div>
+                <div class="col-md-6 card-header">
+                  <h3>Standard</h3>
+                  <p>Best for starter sites</p>
+                  <h2 class="mt-5">5.99</h2>
+                  <p>US$/MO</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <ul>
+                  <li>1 website</li>
+                  <li>100 GB Storage</li>
+                  <li>Unmetered bandwidth</li>
+                  <li>Full support 24/7</li>
+                  <li>Free SSL 1st year</li>
+                </ul>
+                <div class="button">
+                  <button class="btn card__btn">signup now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card card4 col-md-4 col-sm-6">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./images/hosting_icon.png" alt="..." />
+                </div>
+                <div class="col-md-6 card-header">
+                  <h3>Standard</h3>
+                  <p>Best for starter sites</p>
+                  <h2 class="mt-5">5.99</h2>
+                  <p>US$/MO</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <ul>
+                  <li>1 website</li>
+                  <li>100 GB Storage</li>
+                  <li>Unmetered bandwidth</li>
+                  <li>Full support 24/7</li>
+                  <li>Free SSL 1st year</li>
+                </ul>
+                <div class="button">
+                  <button class="btn card__btn">signup now</button>
+                </div>
+              </div>
+            </div>
+            <div class="cards__bottom__description">
+              <p>
+                Your money always save with us. 30-days moneyback guaranteed <i
+                  class="bx bx-right-arrow-circle"
+                ></i
+                >.
+              </p>
+                              
+              <h4>
+                Need assistant? Call <span class="">(123)456-7890</span
+                > for free consultation.
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <============Plan Section============= -->
+      <section class="plan__section">
+        <div class="container">
+          <div class="plan__heading">
+            <h4>All plans above include :</h4>
+          </div>
+          <div class="plans__group">
+            <!-- Row1 -->
+
+            <div class="row">
+              <div class="col-md-4 col-sm-6">
+                <div class="plan__item">
+                  <div class="plan__item__icon">
+                    <img src="./images/p-icon-1.png" alt="icon" />
+                  </div>
+                  <div class="plan__item--text">
+                    <p>Free one year domain</p>
+                  </div>
+                  <div class="plan__item__check">
+                    <span><i class="fas fa-check"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="plan__item">
+                  <div class="plan__item__icon">
+                    <img src="./images/p-icon-1.png" alt="icon" />
+                  </div>
+                  <div class="plan__item--text">
+                    <p>Free one year domain</p>
+                  </div>
+                  <div class="plan__item__check">
+                    <span><i class="fas fa-check"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="plan__item">
+                  <div class="plan__item__icon">
+                    <img src="./images/p-icon-1.png" alt="icon" />
+                  </div>
+                  <div class="plan__item--text">
+                    <p>Free one year domain</p>
+                  </div>
+                  <div class="plan__item__check">
+                    <span><i class="fas fa-check"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Row2 -->
+            <div class="row">
+              <div class="col-md-4 col-sm-6">
+                <div class="plan__item">
+                  <div class="plan__item__icon">
+                    <img src="./images/p-icon-1.png" alt="icon" />
+                  </div>
+                  <div class="plan__item--text">
+                    <p>Free one year domain</p>
+                  </div>
+                  <div class="plan__item__check">
+                    <span><i class="fas fa-check"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="plan__item">
+                  <div class="plan__item__icon">
+                    <img src="./images/p-icon-1.png" alt="icon" />
+                  </div>
+                  <div class="plan__item--text">
+                    <p>Free one year domain</p>
+                  </div>
+                  <div class="plan__item__check">
+                    <span><i class="fas fa-check"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="plan__item">
+                  <div class="plan__item__icon">
+                    <img src="./images/p-icon-1.png" alt="icon" />
+                  </div>
+                  <div class="plan__item--text">
+                    <p>Free one year domain</p>
+                  </div>
+                  <div class="plan__item__check">
+                    <span><i class="fas fa-check"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Row2 -->
+            <div class="row">
+              <div class="col-md-4 col-sm-6">
+                <div class="plan__item">
+                  <div class="plan__item__icon">
+                    <img src="./images/p-icon-1.png" alt="icon" />
+                  </div>
+                  <div class="plan__item--text">
+                    <p>Free one year domain</p>
+                  </div>
+                  <div class="plan__item__check">
+                    <span><i class="fas fa-check"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="plan__item">
+                  <div class="plan__item__icon">
+                    <img src="./images/p-icon-1.png" alt="icon" />
+                  </div>
+                  <div class="plan__item--text">
+                    <p>Free one year domain</p>
+                  </div>
+                  <div class="plan__item__check">
+                    <span><i class="fas fa-check"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="plan__item">
+                  <div class="plan__item__icon">
+                    <img src="./images/p-icon-1.png" alt="icon" />
+                  </div>
+                  <div class="plan__item--text">
+                    <p>Free one year domain</p>
+                  </div>
+                  <div class="plan__item__check">
+                    <span><i class="fas fa-check"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <==========common1 start===========> -->
+      <section class="common1__section">
+        <div class="container">
+          <div class="common1__heading">
+            
+            <h4>features</h4>
+            <h2>What makes our services different?</h2>
+            <p>
+              We offer the fastest hardware and software in the industry, easy
+              with the best technical assistance in around <br />
+              the world and trusted by thousands of developers.
+            </p>
+          </div>
+          <!-- Row1 -->
+          <div class="row common1__row">
+            <div class="col-md-4 col-sm-6 mt-3">
+              <div class="common1__item d-flex">
+                <img src="./images/feature-1.png" alt="..." />
+                <div class="common1__item__text">
+                  <h4>Free Setup</h4>
+                  <p>We will setup your server for free only in 10 mins.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mt-3">
+              <div class="common1__item d-flex">
+                <img src="./images/feature-1.png" alt="..." />
+                <div class="common1__item__text">
+                  <h4>Free Setup</h4>
+                  <p>We will setup your server for free only in 10 mins.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mt-3">
+              <div class="common1__item d-flex">
+                <img src="./images/feature-1.png" alt="..." />
+                <div class="common1__item__text">
+                  <h4>Free Setup</h4>
+                  <p>We will setup your server for free only in 10 mins.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Row1 -->
+          <div class="row common1__row">
+            <div class="col-md-4 col-sm-6 mt-3">
+              <div class="common1__item d-flex">
+                <img src="./images/feature-1.png" alt="..." />
+                <div class="common1__item__text">
+                  <h4>Free Setup</h4>
+               
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mt-3">
+              <div class="common1__item d-flex">
+                <img src="./images/feature-1.png" alt="..." />
+                <div class="common1__item__text">
+                  <h4>Free Setup</h4>
+                  <p>We will setup your server for free only in 10 mins.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mt-3">
+              <div class="common1__item d-flex">
+                <img src="./images/feature-1.png" alt="..." />
+                <div class="common1__item__text">
+                  <h4>Free Setup</h4>
+                  <p>We will setup your server for free only in 10 mins.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Row1 -->
+          <div class="row common1__row">
+            <div class="col-md-4 col-sm-6 mt-3">
+              <div class="common1__item d-flex">
+                <img src="./images/feature-1.png" alt="..." />
+                <div class="common1__item__text">
+                  <h4>Free Setup</h4>
+                  <p>We will setup your server for free only in 10 mins.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mt-3">
+              <div class="common1__item d-flex">
+                <img src="./images/feature-1.png" alt="..." />
+                <div class="common1__item__text">
+                  <h4>Free Setup</h4>
+                  <p>We will setup your server for free only in 10 mins.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mt-3">
+              <div class="common1__item d-flex">
+                <img src="./images/feature-1.png" alt="..." />
+                <div class="common1__item__text">
+                  <h4>Free Setup</h4>
+                  <p>We will setup your server for free only in 10 mins.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========Server Section=========== -->
+      <section class="server__section">
+        <div class="container">
+          <div class="server__heading">
+            <h2>worldwide server</h2>
+            <h4>We have servers everywhere</h4>
+          </div>
+          <div class="server__map mt-5">
+            <img class="img-fluid" src="./images/server.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+<!-- ==========LOVING section Start=========== -->
+      <section class="common__section">
+        <div class="container">
+          <div class="common__heading">
+            <h4>
+              people <span><i class="fas fa-heart"></i></span> us
+            </h4>
+            <h2>Why they choose us</h2>
+            <p>
+              Simple. Powerful. Reliable. Fastest. Winning Award
+              Support.Hack-free Protection. Better Pricing. <br />
+              And many more common1 that made many people love us.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-12 common__text">
+              <div class=" ">
+                <h4>Multiple Data Center</h3>
+                  <p class="pt-5">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blan ditiis praesentium voluptatum deleniti atque corrupti quos
+                    dolores.
+                  </p>
+                  <p class="pt-3">
+                    Similique sunt in culpa qui officia deserunt mollitia animi, id
+                    est labo rum et dolorum fuga. Et harum quidem rerum facilis est
+                    et expedita distinctio. Nam libero tempore.
+                  </p>
+              </div>
+              <div class="common__map__other row mt-5">
+                <div class="col-md-4">
+                  <img class="img-fluid" src="./images/loving_map.png" alt="">
+                </div>
+                <div class="col-md-4 p-1">
+                  <ul>
+                    <li><span><i class="fas fa-check"></i></span>US server</li>
+                    <li><span><i class="fas fa-check"></i></span>United Kingdom</li>
+                    <li><span><i class="fas fa-check"></i></span>Indonesia</li>
+                </ul>
+                </div>
+                <div class="col-md-4 p-1">
+                  <ul>
+                    <li><span><i class="fas fa-check"></i></span>US server</li>
+                    <li><span><i class="fas fa-check"></i></span>United Kingdom</li>
+                    <li><span><i class="fas fa-check"></i></span>Indonesia</li>
+                </ul>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-md-6 col-sm-12 common__img">
+              <img class="img-fluid" src="./images/lovingImg.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========Wordpress section Start=========== -->
+      <section class="common__section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 common__img">
+              <img class="img-fluid" src="./images/wordpress.png" alt="" />
+            </div>
+            <div class="col-md-6 col-sm-12 common__text">
+              <div class=" ">
+                <h4>Optimized Wordpress</h3>
+                  <p class="pt-5">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blan ditiis praesentium voluptatum deleniti atque corrupti quos
+                    dolores.
+                  </p>
+                  <p class="pt-3">
+                    Similique sunt in culpa qui officia deserunt mollitia animi, id
+                    est labo rum et dolorum fuga. Et harum quidem rerum facilis est
+                    et expedita distinctio. Nam libero tempore.
+                  </p>
+              </div>
+              <div class="common__map__other row mt-5">
+                <div class="col-md-6">
+                  <ul>
+                    <li><span><i class="fas fa-check"></i></span>US server</li>
+                    <li><span><i class="fas fa-check"></i></span>United Kingdom</li>
+                    <li><span><i class="fas fa-check"></i></span>Indonesia</li>
+                </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li><span><i class="fas fa-check"></i></span>US server</li>
+                    <li><span><i class="fas fa-check"></i></span>United Kingdom</li>
+                    <li><span><i class="fas fa-check ml-5"></i></span>Indonesia</li>
+                </ul>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========Green Server section Start=========== -->
+      <section class="common__section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 common__text">
+              <div class=" ">
+                <h4>Green Server Technology</h3>
+                  <p class="pt-5">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blan ditiis praesentium voluptatum deleniti atque corrupti quos
+                    dolores.
+                  </p>
+                  <p class="pt-3">
+                    Similique sunt in culpa qui officia deserunt mollitia animi, id
+                    est labo rum et dolorum fuga. Et harum quidem rerum facilis est
+                    et expedita distinctio. Nam libero tempore.
+                  </p>
+              </div>
+              <div class="common__map__other row mt-5">              
+                <div class="col-md-6">
+                  <ul>
+                    <li><span><i class="fas fa-check"></i></span>US server</li>
+                    <li><span><i class="fas fa-check"></i></span>United Kingdom</li>
+                    <li><span><i class="fas fa-check"></i></span>Indonesia</li>
+                </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li><span><i class="fas fa-check"></i></span>US server</li>
+                    <li><span><i class="fas fa-check"></i></span>United Kingdom</li>
+                    <li><span><i class="fas fa-check"></i></span>Indonesia</li>
+                </ul>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-md-6 col-sm-12 common__img">
+              <img class="img-fluid" src="./images/technology.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========Extra Protection section Start=========== -->
+      <section class="common__section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 common__img">
+              <img class="img-fluid" src="./images/extra-protection.png" alt="" />
+            </div>
+            <div class="col-md-6 col-sm-12 common__text">
+              <div class=" ">
+                <h4>Extra Protection for Ultimate Plans</h3>
+                  <p class="pt-5">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blan ditiis praesentium voluptatum deleniti atque corrupti quos
+                    dolores.
+                  </p>
+                  <p class="pt-3">
+                    Similique sunt in culpa qui officia deserunt mollitia animi, id
+                    est labo rum et dolorum fuga. Et harum quidem rerum facilis est
+                    et expedita distinctio. Nam libero tempore.
+                  </p>
+              </div>
+              <div class="common__map__other row mt-5">
+                <div class="col-md-6">
+                  <ul>
+                    <li><span><i class="fas fa-check"></i></span>US server</li>
+                    <li><span><i class="fas fa-check"></i></span>United Kingdom</li>
+                    <li><span><i class="fas fa-check"></i></span>Indonesia</li>
+                </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li><span><i class="fas fa-check"></i></span>US server</li>
+                    <li><span><i class="fas fa-check"></i></span>United Kingdom</li>
+                    <li><span><i class="fas fa-check ml-5"></i></span>Indonesia</li>
+                </ul>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+        <!-- ===========Business Start============ -->
+      <section class="common1__section business__section">
+        <div class="container">
+          <div class="common1__heading">
+            <h4>business</h4>
+            <h2>Need more powerfull hosting? Try our business plan.</h2>
+            <p>special plan for business, more powerfull and secure.</p>
+          </div>
+          <!-- Row1 -->
+          <div class="row common1__row">
+            <!-- <div class=""> -->
+              <div class="col-md-6 row">
+                <div class="col-md-12 col-sm-4  common1__item business__item">
+                  <img src="./images/business-icon-1.png" alt="..." />
+                  <div class="business__item__text">
+                    <h4>READY FOR GSUIT</h4>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-4  common1__item business__item ">
+                  <img src="./images/business-icon-1.png" alt="..." />
+                  <div class="business__item__text">
+                    <h4>READY FOR GSUIT</h4>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-4  common1__item business__item ">
+                  <img src="./images/business-icon-1.png" alt="..." />
+                  <div class="business__item__text">
+                    <h4>READY FOR GSUIT</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 row">
+                <div class="col-md-4 col-sm-4  common1__item business__item">
+                  <img src="./images/business-icon-1.png" alt="..." />
+                  <div class="business__item__text">
+                    <h4>READY FOR GSUIT</h4>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-4  common1__item business__item ">
+                  <img src="./images/business-icon-1.png" alt="..." />
+                  <div class="business__item__text">
+                    <h4>READY FOR GSUIT</h4>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-4  common1__item business__item ">
+                  <img src="./images/business-icon-1.png" alt="..." />
+                  <div class="business__item__text">
+                    <h4>READY FOR GSUIT</h4>
+                  </div>
+                </div>
+              </div>
+              
+        
+          </div>
+          
+        
+        </div>
+      </section>
+      <!-- <section class="common1__section business__section">
+        <div class="container">
+          <div class="common1__heading">
+            <h4>business</h4>
+            <h2>Need more powerfull hosting? Try our business plan.</h2>
+            <p>special plan for business, more powerfull and secure.</p>
+          </div>
+
+          <div class="row common1__row">
+
+              <div class="col-md-2 col-sm-4  common1__item business__item">
+                <img src="./images/business-icon-1.png" alt="..." />
+                <div class="business__item__text">
+                  <h4>READY FOR GSUIT</h4>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4  common1__item business__item ">
+                <img src="./images/business-icon-1.png" alt="..." />
+                <div class="business__item__text">
+                  <h4>READY FOR GSUIT</h4>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4  common1__item business__item ">
+                <img src="./images/business-icon-1.png" alt="..." />
+                <div class="business__item__text">
+                  <h4>READY FOR GSUIT</h4>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4  common1__item business__item ">
+                <img src="./images/business-icon-1.png" alt="..." />
+                <div class="business__item__text">
+                  <h4>READY FOR GSUIT</h4>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4  common1__item business__item ">
+                <img src="./images/business-icon-1.png" alt="..." />
+                <div class="business__item__text">
+                  <h4>READY FOR GSUIT</h4>
+                </div>
+              </div>
+        
+          </div>
+          
+        
+        </div>
+      </section> -->
+
+
+<!-- ==========protection with security============== -->
+<section class="common__section protection__section">
   <div class="container">
-<!-- Navbar start -->
-<nav class="navigation ">
-  <img class="logo" src="./images/logo.png" alt="">
-    <ul  class="nav">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Domain</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Hosting</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Cloud</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">Dedicated
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Email</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">Security</a>
-        </li>
-        <li>
-          <span class="btn">SIGN IN <img src="./images/sign_in_icon.png" alt=""></span>
-        </li>
-      </ul>
-     
-</nav>
-
-
+    <div class="row">
+      <div class="col-md-6 col-sm-12 common__img">
+        <img class="img-fluid" src="./images/business-box.png" alt="" />
+      </div>
+      <div class="col-md-6 col-sm-12 common__text">
+        <div class=" ">
+          <h4>Protect Your Website with Our Security Fetures</h3>
+            <p class="pt-5">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blan ditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores.
+            </p>
+            <p class="pt-3">
+              Similique sunt in culpa qui officia deserunt mollitia animi, id
+              est labo rum et dolorum fuga. Et harum quidem rerum facilis est
+              et expedita distinctio. Nam libero tempore.
+            </p>
+        </div>
+        <div class="common__map__other row mt-5">
+          <div class="col-md-6">
+            <ul>
+              <li><span><i class="fas fa-check"></i></span>US server</li>
+              <li><span><i class="fas fa-check"></i></span>United Kingdom</li>
+              <li><span><i class="fas fa-check"></i></span>Indonesia</li>
+              <li><span><i class="fas fa-check"></i></span>Indonesia</li>
+          </ul>
+          <div class="security__button">Get Started Now</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
   </div>
-   
-    
-  
+</section>
+       
+<!-- =========Other Main Products=========== -->
+<section class="common1__section other__main-product__section">
+  <div class="container">
+    <div class="common1__heading">
+      
+      <h2>Check out  other main products</h2>
+     
+    </div>
+    <!-- Row1 -->
+    <div class="row common1__row">
+      <div class="col-md-2 col-sm-4 col-xs-6 mt-3">
+        <div class="common1__item card1">
+          <div class="pd__item__text">
+            <h4>Web Hosting</h4>
+            <p>From $2/Mo</p>
+          </div>
+         <div class="img">
+          <img class="img-fluid" src="./images/server1.png" alt="..." />
+         </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 mt-3">
+        <div class="common1__item card2">
+          <div class="pd__item__text">
+            <h4>Web Hosting</h4>
+            <p>From $2/Mo</p>
+          </div>
+         <div class="img">
+          <img class="img-fluid" src="./images/server1.png" alt="..." />
+         </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 mt-3">
+        <div class="common1__item card3">
+          <div class="pd__item__text">
+            <h4>Web Hosting</h4>
+            <p>From $2/Mo</p>
+          </div>
+         <div class="img">
+          <img class="img-fluid" src="./images/server1.png" alt="..." />
+         </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 mt-3">
+        <div class="common1__item card1">
+          <div class="pd__item__text">
+            <h4>Web Hosting</h4>
+            <p>From $2/Mo</p>
+          </div>
+         <div class="img">
+          <img class="img-fluid" src="./images/server1.png" alt="..." />
+         </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 mt-3">
+        <div class="common1__item card2">
+          <div class="pd__item__text">
+            <h4>Web Hosting</h4>
+            <p>From $2/Mo</p>
+          </div>
+         <div class="img">
+          <img class="img-fluid" src="./images/server1.png" alt="..." />
+         </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 mt-3">
+        <div class="common1__item card3">
+          <div class="pd__item__text">
+            <h4>Web Hosting</h4>
+            <p>From $2/Mo</p>
+          </div>
+         <div class="img">
+          <img class="img-fluid" src="./images/server1.png" alt="..." />
+         </div>
+        </div>
+      </div>
+      
 
-    </nav>
-</body>
+      
+     
+    </div>
+    <!-- <div class="">  -->
+      <!-- <div class=" row common1__row mt-3 card1">
+        <div class="col-md-2 col-sm-4 col-xs-6 ">
+          <div class="feature__item__text">
+            <h4>Web Hosting</h4>
+            <p>From $2/Mo</p>
+            <img class="img-fluid" src="./images/server1.png" alt="..." />
+          </div>
+        </div>
+         
+          </div>
+        </div> -->
+       
+      <!-- </div> -->
+      
+    
+    </div>
+  </div>
+</section>
+
+      <!-- ============Footer Section============== -->
+      <section class="footer__section">
+        <div class="container">
+          <div class="footer__main row">
+            <!-- services -->
+            <div class="col-md-8 row services">
+              <div class="col-md-3 col-sm-6 col-xs-6 ">
+                <h4>Hosting</h4>
+                        <ul>
+                            <li>Web Hosting</li>
+                            <li>VPS Hosting</li>
+                            <li> Cloud Hosting</li>
+                            <li> Wordpress Hosting</li>
+                            <li> Dedicated</li>
+                        </ul>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <h4>domains</h4>
+                        <ul>
+                            <li>New Domains</li>
+                            <li>Transfer Domain</li>
+                            <li>Manage Domain</li>
+                            <li> Domain Price </li> 
+                        </ul>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <h4>support</h4>
+                        <ul>
+                            <li>Submit Ticket</li>
+                             <li>FAQs</li>
+                            <li> Help</li>
+                            <li> Knowledge</li>
+                            <li> Forum</li>
+                        </ul>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <h4>company</h4>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Professional Team</li> 
+                            <li>Newsroom</li>
+                            <li>Partners</li>
+                            <li> Blog</li>
+                            <li> Contact Us</li>
+                        </ul>
+              </div>
+            </div>
+            <!-- offer info & contact -->
+            <div class="col-md-4">
+              <div class="contact__form">
+                <h4>Get special offers from us</h4>
+                        <form action="" class="mt-5">
+                            <input type="text" placeholder="Enter your email adderess">
+                            <input class=" footer__button" type="submit" value="Submit">
+                        </form>
+              </div>
+              <div class="social__media__link ">
+                <h4>follow us</h4>
+                        <ul class="d-flex">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="container">
+              <div class="footer__content row">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                     <div class="copyright">
+                       <p>&copy;2022 Themeboo. All rights reserved</p>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                     <div class="footer__logo">
+                      <a href="#"> <img src="./images/footer-logo.png" alt="footer logo"></a>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="footer__menu">
+                          <ul class="d-flex">
+                              <li><a href="#">Sitemap</a></li>
+                              <li><a href="#">Term of Services</a></li>
+                              <li><a href="#">Privacy Policy</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+      </section>
+      
+    
+      
+
+
+
+    </div>
+  </body>
 </html>
+
+
